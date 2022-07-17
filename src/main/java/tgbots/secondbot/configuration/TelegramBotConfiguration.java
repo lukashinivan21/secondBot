@@ -11,10 +11,8 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 public class TelegramBotConfiguration {
 
-    @Value("${add token!!!}")
+    @Value("${568741296}")
     private String token;
-
-    private final String secondString = "Запасная строка";
 
 
     @Bean
