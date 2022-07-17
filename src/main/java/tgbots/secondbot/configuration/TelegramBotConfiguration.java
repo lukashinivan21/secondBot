@@ -14,6 +14,8 @@ public class TelegramBotConfiguration {
     @Value("${add token!!!}")
     private String token;
 
+    private final String secondString = "Запасная строка";
+
 
     @Bean
     public TelegramBot telegramBot() {
